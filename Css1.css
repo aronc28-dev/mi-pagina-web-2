@@ -1,0 +1,495 @@
+/*=========================================
+    ESTILOS GENERALES
+==========================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f9f4;
+    color:#333;
+    line-height:1.8;
+}
+
+/*=========================================
+              HEADER
+==========================================*/
+
+header{
+    background:linear-gradient(90deg,#2E7D32,#43A047);
+    color:white;
+    text-align:center;
+    padding:40px 20px;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:20px;
+}
+
+/*=========================================
+              MENÚ
+==========================================*/
+
+.menu{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    background:#1B5E20;
+
+    position:sticky;
+
+    top:0;
+
+    z-index:1000;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.25);
+
+}
+
+.menu a{
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:18px;
+
+    transition:.3s;
+
+    font-weight:bold;
+
+}
+
+.menu a:hover{
+
+    background:#66BB6A;
+
+    color:#1B5E20;
+
+}
+
+/*=========================================
+              SECCIONES
+==========================================*/
+
+section{
+
+    width:90%;
+
+    margin:30px auto;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.12);
+
+}
+
+section h2{
+
+    color:#2E7D32;
+
+    margin-bottom:15px;
+
+}
+
+section p{
+
+    text-align:justify;
+
+    margin-bottom:15px;
+
+}
+
+/*=========================================
+              IMÁGENES
+==========================================*/
+
+.imagen{
+    display:block;
+    width:100%;
+    max-width:700px;
+    margin:20px auto;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+/*=========================================
+              TARJETAS
+==========================================*/
+
+.contenedor{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    margin-top:25px;
+}
+
+.tarjeta{
+    background:white;
+    width:280px;
+    padding:20px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.4s;
+}
+
+.tarjeta:hover{
+    transform:translateY(-10px);
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.tarjeta h3{
+    color:#2E7D32;
+    margin-bottom:10px;
+}
+
+.tarjeta a{
+    display:inline-block;
+    margin-top:15px;
+    background:#2E7D32;
+    color:white;
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.tarjeta a:hover{
+    background:#1B5E20;
+}
+
+/*=========================================
+              TABLAS
+==========================================*/
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+
+th{
+    background:#2E7D32;
+    color:white;
+    padding:15px;
+}
+
+td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background:#f2f2f2;
+}
+
+tr:hover{
+    background:#C8E6C9;
+}
+
+/*=========================================
+            LISTAS
+==========================================*/
+
+ul{
+    margin-left:30px;
+}
+
+li{
+    margin:10px 0;
+}
+
+/*=========================================
+            FORMULARIOS
+==========================================*/
+
+form{
+    width:100%;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:8px;
+
+    margin-bottom:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:8px;
+
+    font-size:16px;
+
+}
+
+input[type=radio],
+input[type=checkbox]{
+
+    width:auto;
+    margin-right:8px;
+
+}
+
+input[type=submit],
+input[type=reset],
+button{
+
+    background:#2E7D32;
+
+    color:white;
+
+    border:none;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-weight:bold;
+
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover,
+button:hover{
+
+    background:#1B5E20;
+
+}
+
+/*=========================================
+            AUDIO
+==========================================*/
+
+audio{
+    width:100%;
+    margin-top:20px;
+}
+
+/*=========================================
+            ASIDE
+==========================================*/
+
+aside{
+
+    width:90%;
+
+    margin:30px auto;
+
+    background:#E8F5E9;
+
+    border-left:8px solid #2E7D32;
+
+    padding:25px;
+
+    border-radius:10px;
+
+}
+
+/*=========================================
+            FOOTER
+==========================================*/
+
+footer{
+
+    background:#1B5E20;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+    margin-top:40px;
+
+}
+
+/*=========================================
+            SLIDER
+==========================================*/
+
+.slider{
+
+    width:100%;
+
+    max-width:900px;
+
+    margin:30px auto;
+
+    overflow:hidden;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+
+}
+
+.slides{
+
+    display:flex;
+
+    width:500%;
+
+    animation:slide 20s infinite;
+
+}
+
+.slides img{
+
+    width:20%;
+
+    object-fit:cover;
+
+}
+
+@keyframes slide{
+
+0%,15%{
+transform:translateX(0%);
+}
+
+20%,35%{
+transform:translateX(-20%);
+}
+
+40%,55%{
+transform:translateX(-40%);
+}
+
+60%,75%{
+transform:translateX(-60%);
+}
+
+80%,100%{
+transform:translateX(-80%);
+}
+
+}
+
+/*=========================================
+        BOTÓN VOLVER ARRIBA
+==========================================*/
+
+#arriba{
+
+position:fixed;
+
+bottom:25px;
+
+right:25px;
+
+background:#2E7D32;
+
+color:white;
+
+padding:15px;
+
+border-radius:50%;
+
+text-decoration:none;
+
+font-size:22px;
+
+box-shadow:0 5px 10px rgba(0,0,0,.3);
+
+transition:.3s;
+
+}
+
+#arriba:hover{
+
+background:#1B5E20;
+
+transform:scale(1.1);
+
+}
+
+/*=========================================
+        RESPONSIVE
+==========================================*/
+
+@media(max-width:768px){
+
+header h1{
+
+font-size:30px;
+
+}
+
+.menu{
+
+flex-direction:column;
+
+}
+
+.menu a{
+
+width:100%;
+
+text-align:center;
+
+}
+
+.contenedor{
+
+flex-direction:column;
+
+align-items:center;
+
+}
+
+.tarjeta{
+
+width:95%;
+
+}
+
+section{
+
+width:95%;
+
+padding:20px;
+
+}
+
+table{
+
+font-size:14px;
+
+}
+
+}

@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Calculadora IMC</title>
+
+<link rel="stylesheet" href="Css1.css">
+
+<script src="Scrip1.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>📏 Calculadora del Índice de Masa Corporal</h1>
+
+<p>Conoce tu IMC y aprende a interpretar el resultado.</p>
+
+</header>
+
+<nav class="menu">
+
+<a href="index.html">🏠 Inicio</a>
+
+<a href="vida.html">🌱 Vida Saludable</a>
+
+<a href="fisica.html">💪 Salud Física</a>
+
+<a href="psicologica.html">🧠 Salud Psicológica</a>
+
+<a href="bebidas.html">🥤 Bebidas Azucaradas</a>
+
+<a href="procesados.html">🍔 Alimentos Procesados</a>
+
+<a href="imc.html">📏 IMC</a>
+
+<a href="formulario.html">📝 Formulario</a>
+
+<a href="audio.html">🎧 Audio</a>
+
+</nav>
+
+<section>
+
+<h2>¿Qué es el Índice de Masa Corporal?</h2>
+
+<img src="IMG_8041.JPG" class="imagen" alt="Índice de Masa Corporal">
+
+<p>
+
+El Índice de Masa Corporal (IMC) es una medida utilizada para estimar si una persona tiene un peso adecuado con relación a su estatura. Es una herramienta sencilla que permite identificar posibles riesgos relacionados con el bajo peso, el sobrepeso o la obesidad.
+
+</p>
+
+<p>
+
+Aunque el IMC no mide directamente la cantidad de grasa corporal, es uno de los indicadores más utilizados por profesionales de la salud para realizar una evaluación inicial del estado nutricional.
+
+</p>
+
+</section>
+
+<section>
+
+<h2>Fórmula del IMC</h2>
+
+<p>
+
+La fórmula para calcular el Índice de Masa Corporal es:
+
+</p>
+
+<h3>
+
+IMC = Peso (kg) ÷ (Estatura × Estatura)
+
+</h3>
+
+<p>
+
+Ejemplo:
+
+</p>
+
+<p>
+
+Una persona que pesa <strong>70 kg</strong> y mide <strong>1.70 m</strong> tiene un IMC de:
+
+</p>
+
+<h3>
+
+70 ÷ (1.70 × 1.70) = 24.22
+
+</h3>
+
+</section>
+
+<section>
+
+<h2>Calculadora de IMC</h2>
+
+<label>Peso (kg)</label>
+
+<input type="number" id="peso" placeholder="Ejemplo: 70">
+
+<label>Estatura (m)</label>
+
+<input type="number" step="0.01" id="altura" placeholder="Ejemplo: 1.70">
+
+<br><br>
+
+<button onclick="calcularIMC()">
+
+Calcular IMC
+
+</button>
+
+<h2 id="resultado"></h2>
+
+<h3 id="clasificacion"></h3>
+
+</section>
+
+<section>
+
+<h2>Clasificación del IMC</h2>
+
+<table>
+
+<tr>
+
+<th>IMC</th>
+
+<th>Clasificación</th>
+
+</tr>
+
+<tr>
+
+<td>Menor de 18.5</td>
+
+<td>Bajo peso</td>
+
+</tr>
+
+<tr>
+
+<td>18.5 - 24.9</td>
+
+<td>Peso saludable</td>
+
+</tr>
+
+<tr>
+
+<td>25 - 29.9</td>
+
+<td>Sobrepeso</td>
+
+</tr>
+
+<tr>
+
+<td>30 o más</td>
+
+<td>Obesidad</td>
+
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>¿Cómo mantener un peso saludable?</h2>
+
+<div class="contenedor">
+
+<div class="tarjeta">
+
+<h3>🥗 Alimentación</h3>
+
+<p>
+
+Consumir frutas, verduras, cereales integrales y proteínas de calidad.
+
+</p>
+
+</div>
+
+<div class="tarjeta">
+
+<h3>🏃 Actividad Física</h3>
+
+<p>
+
+Realizar al menos 150 minutos de ejercicio moderado por semana.
+
+</p>
+
+</div>
+
+<div class="tarjeta">
+
+<h3>💧 Hidratación</h3>
+
+<p>
+
+Beber suficiente agua y reducir el consumo de bebidas azucaradas.
+
+</p>
+
+</div>
+
+<div class="tarjeta">
+
+<h3>😴 Descanso</h3>
+
+<p>
+
+Dormir entre siete y nueve horas diariamente favorece un metabolismo saludable.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<aside>
+
+<h2>💡 Dato importante</h2>
+
+<p>
+
+El IMC es una herramienta de orientación y no sustituye una evaluación médica completa. Factores como la edad, la masa muscular y algunas condiciones de salud también influyen en el peso corporal.
+
+</p>
+
+</aside>
+
+<section>
+
+<h2>Conclusión</h2>
+
+<p>
+
+Conocer el Índice de Masa Corporal ayuda a identificar posibles riesgos relacionados con el peso y motiva a adoptar hábitos saludables. Mantener una alimentación equilibrada, realizar actividad física y acudir a revisiones médicas son acciones fundamentales para cuidar la salud.
+
+</p>
+
+</section>
+
+<footer>
+
+<p>
+
+Proyecto Escolar • Promoción de la Vida Saludable
+
+</p>
+
+<p>
+
+Desarrollo de Aplicaciones Web
+
+</p>
+
+</footer>
+
+</body>
+
+</html>

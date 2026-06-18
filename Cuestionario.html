@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Formulario</title>
+
+<link rel="stylesheet" href="Css1.css">
+
+<script src="Scrip1.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>📝 Encuesta sobre Hábitos Saludables</h1>
+
+<p>Responde el siguiente cuestionario.</p>
+
+</header>
+
+<nav class="menu">
+
+<a href="index.html">🏠 Inicio</a>
+
+<a href="vida.html">🌱 Vida Saludable</a>
+
+<a href="fisica.html">💪 Salud Física</a>
+
+<a href="psicologica.html">🧠 Salud Psicológica</a>
+
+<a href="bebidas.html">🥤 Bebidas Azucaradas</a>
+
+<a href="procesados.html">🍔 Alimentos Procesados</a>
+
+<a href="imc.html">📏 IMC</a>
+
+<a href="formulario.html">📝 Formulario</a>
+
+<a href="audio.html">🎧 Audio</a>
+
+</nav>
+
+<section>
+
+<h2>Datos personales</h2>
+
+<form>
+
+<label>Nombre completo</label>
+
+<input type="text" placeholder="Escribe tu nombre" required>
+
+<label>Edad</label>
+
+<input type="number" min="10" max="100" required>
+
+<label>Correo electrónico</label>
+
+<input type="email" placeholder="ejemplo@gmail.com" required>
+
+<label>Sexo</label>
+
+<select>
+
+<option>Selecciona una opción</option>
+
+<option>Femenino</option>
+
+<option>Masculino</option>
+
+<option>Prefiero no decirlo</option>
+
+</select>
+
+<label>Fecha de nacimiento</label>
+
+<input type="date">
+
+</section>
+
+<section>
+
+<h2>Hábitos de alimentación</h2>
+
+<p>¿Cuántos vasos de agua bebes al día?</p>
+
+<input type="radio" name="agua"> Menos de 3<br>
+
+<input type="radio" name="agua"> De 3 a 5<br>
+
+<input type="radio" name="agua"> De 6 a 8<br>
+
+<input type="radio" name="agua"> Más de 8<br><br>
+
+<p>¿Con qué frecuencia consumes frutas y verduras?</p>
+
+<select>
+
+<option>Todos los días</option>
+
+<option>3 veces por semana</option>
+
+<option>Ocasionalmente</option>
+
+<option>Casi nunca</option>
+
+</select>
+
+<br><br>
+
+<p>¿Cuáles de los siguientes alimentos consumes frecuentemente?</p>
+
+<input type="checkbox"> Frutas<br>
+
+<input type="checkbox"> Verduras<br>
+
+<input type="checkbox"> Comida rápida<br>
+
+<input type="checkbox"> Dulces<br>
+
+<input type="checkbox"> Botanas<br>
+
+<input type="checkbox"> Cereales integrales<br>
+
+</section>
+
+<section>
+
+<h2>Bebidas Azucaradas</h2>
+
+<p>¿Cuántos refrescos consumes por semana?</p>
+
+<select>
+
+<option>Ninguno</option>
+
+<option>1 a 2</option>
+
+<option>3 a 5</option>
+
+<option>Más de 5</option>
+
+</select>
+
+<br><br>
+
+<p>¿Qué bebida consumes con mayor frecuencia?</p>
+
+<input type="radio" name="bebida"> Agua natural<br>
+
+<input type="radio" name="bebida"> Refresco<br>
+
+<input type="radio" name="bebida"> Jugo industrializado<br>
+
+<input type="radio" name="bebida"> Bebida energética<br>
+
+<input type="radio" name="bebida"> Té embotellado<br>
+
+</section>
+
+<section>
+
+<h2>Actividad Física</h2>
+
+<p>¿Cuántos días haces ejercicio?</p>
+
+<select>
+
+<option>Nunca</option>
+
+<option>1-2 días</option>
+
+<option>3-4 días</option>
+
+<option>5 o más días</option>
+
+</select>
+
+<br><br>
+
+<p>¿Qué actividad realizas?</p>
+
+<input type="checkbox"> Caminar<br>
+
+<input type="checkbox"> Correr<br>
+
+<input type="checkbox"> Gimnasio<br>
+
+<input type="checkbox"> Ciclismo<br>
+
+<input type="checkbox"> Natación<br>
+
+<input type="checkbox"> Otro<br>
+
+</section>
+
+<section>
+
+<h2>Salud Psicológica</h2>
+
+<p>¿Cómo consideras tu nivel de estrés?</p>
+
+<input type="range" min="1" max="10">
+
+<br><br>
+
+<p>¿Duermes al menos 8 horas?</p>
+
+<input type="radio" name="sueño"> Sí<br>
+
+<input type="radio" name="sueño"> No<br>
+
+<br>
+
+<p>¿Qué haces para relajarte?</p>
+
+<textarea rows="6" cols="60" placeholder="Escribe tu respuesta..."></textarea>
+
+</section>
+
+<section>
+
+<h2>Opinión</h2>
+
+<label>¿Qué aprendiste con este sitio web?</label>
+
+<textarea rows="8" cols="70"></textarea>
+
+<br><br>
+
+<input type="reset" value="Limpiar formulario">
+
+<input type="submit" value="Enviar respuestas">
+
+</form>
+
+</section>
+
+<footer>
+
+<p>
+
+Proyecto Escolar • Promoción de la Vida Saludable
+
+</p>
+
+<p>
+
+Desarrollo de Aplicaciones Web
+
+</p>
+
+</footer>
+
+</body>
+
+</html>
